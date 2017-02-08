@@ -378,7 +378,8 @@ export class SeedConfig {
       '@angular/platform-browser-dynamic/testing':
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
-
+      '@angular-redux/store':      'node_modules/@angular-redux/store',
+      'redux':                     'node_modules/redux',
       'app/*': '/app/*',
       // For test config
       'dist/dev/*': '/base/dist/dev/*',
